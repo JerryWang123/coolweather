@@ -2,11 +2,9 @@ package com.example.administrator.coolweather.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.provider.DocumentsContract;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -21,24 +19,12 @@ import com.example.administrator.coolweather.model.CoolWeatherDB;
 import com.example.administrator.coolweather.model.County;
 import com.example.administrator.coolweather.model.Province;
 import com.example.administrator.coolweather.model.XMLDOMService;
-import com.example.administrator.coolweather.util.HttpCallbackListener;
-import com.example.administrator.coolweather.util.HttpUtil;
 import com.example.administrator.coolweather.util.Utility;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.LogRecord;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 
 public class ChooseAreaActivity extends Activity {
 
